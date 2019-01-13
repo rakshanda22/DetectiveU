@@ -1,0 +1,28 @@
+{
+"manifest_version": 2,
+    "name": "DetectiveU",
+    "description": "This plugin lets you seek to specific part of the video",
+    "version": "1.0",
+    "icons": {"28":"1.jpg"},
+
+    "background": {
+    
+    },
+    "browser_action":{
+      "defaut_title": "This extension can fid specific type of content from video",
+      "default_popup": "popup.html"
+    },
+
+    "content_scripts": [
+        {
+            "matches": [
+                "*://youtube.com/*"
+            ],
+            "js": [
+                "content.js","input.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "permissions":[ "tabs","storage","http://127.0.0.1:5000/*"]
+}
