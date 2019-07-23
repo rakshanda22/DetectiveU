@@ -18,10 +18,10 @@ We think that this project will at least be useful to us for our study period an
 ## What we learned
 The primary and the most import thing: GCP cloud APIs as cloud computing is most demanding in market today. We also learned many important things like Flask server, RESTful architecture.
 
-# What's next for DetectiveU
+## What's next for DetectiveU
 Next we have planned on storing the transcribed data to the machine, so that if I access the same video again, I need not wait for it to analyze and generate transcript. Also we aim to provide summary of video as it can again save time.
 
-# Built With
+## Built With
 gcp-speech-to-text-api
 python3
 youtube-dl
